@@ -1,0 +1,26 @@
+{
+  "name": "api-contenerizacion-microservicios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jhan Herrera",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-Castillejo/API-Contenerizacion-Microservicios.git"
+  },
+  "bugs": {
+    "url": "https://github.com/J-Castillejo/API-Contenerizacion-Microservicios/issues"
+  },
+  "homepage": "https://github.com/J-Castillejo/API-Contenerizacion-Microservicios#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0"
+  }
+}
