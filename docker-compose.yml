@@ -7,7 +7,7 @@ services:
       context: .
     ports:
       - "4002" 
-    enviroment:
+    environment:
       - MONGO_URI=${MONGO_URI}
       - PORT=4002  
     networks:
