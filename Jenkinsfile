@@ -33,15 +33,4 @@ pipeline {
             }
         }
     }
-
-    post {
-        always {
-            emailext (
-                subject: "Estado del build: ${currentBuild.currentResult}",
-                body: "Se ha completado el despliegue. Ver detalles: ${env.BUILD_URL}",
-                to: 'jhanherrera04@gmail.com',
-                from: 'jenkins@iudigital.edu.co'
-            )
-        }
-    }
 }
