@@ -32,8 +32,8 @@ pipeline {
                 }
             }
         }
-    }
-
+    } 
+    
     post {
         always {
             emailext (
