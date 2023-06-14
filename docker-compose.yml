@@ -2,7 +2,7 @@ version: "3.9"
 services:
   microservicio:
     container_name: microservicio
-    image: jhanherrera/api-microservicio:v1
+    image: jhanherrera/api-microservicio:latest
     build:
       context: .
     ports:
@@ -15,7 +15,7 @@ services:
 
   balanceador:
     container_name: balanceador-carga
-    image: balanceador-carga:v1
+    image: balanceador-carga:latest
     build:
       context: ./balanceador
     ports:
