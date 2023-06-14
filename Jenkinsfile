@@ -39,7 +39,7 @@ pipeline {
             emailext (
                 subject: "Estado del build: ${currentBuild.currentResult}",
                 body: "Se ha completado el build. Puede detallar en: ${env.BUILD_URL}",
-                to: "julio.martinez@iudigital.edu.co",
+                to: "veneciamdt@gmail.com",
                 from: "jenkins@iudigital.edu.co"
             )
         }
