@@ -18,6 +18,7 @@ COPY . .
 EXPOSE 4002
 CMD [ "node", "index.js" ]
 
+
 #comandos docker
 #docker build . -t "nombreImagen":"versionImagen" (construir image)  
 #docker images (listar imagenes)
